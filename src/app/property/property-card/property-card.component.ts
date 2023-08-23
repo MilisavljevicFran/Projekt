@@ -8,7 +8,8 @@ import { IProperty } from "../iproperty.interface";
 })
 export class PropertyCardComponent {
 
-    @Input() property : IProperty;
-
+    @Input()
+    property!: IProperty;
+//vs code mi je preporučio da dodam ! prije :, ako nešto ne radi, možda je do toga
 }
 // piše da je error ali uspješno kompajlira
